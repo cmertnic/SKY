@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.Block {
+    font-family: "Poppins", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 1080px;
+    display: flex;
+    margin-bottom: 185px;
+
+    .Block_row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1920px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        flex-wrap: wrap;
+        position: relative;
+
+
+
+        .Image {
+            position: absolute;
+            z-index: 0;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: auto;
+        }
+
+        .text_images {
+            width: 1844px;
+            height: 660px;
+            margin-left: 76px;
+            z-index: 1;
+            color: #fff;
+
+            .Lines {
+                width: 0px;
+                height: 289px;
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 6px;
+                position: absolute;
+            }
+
+            .Line {
+                border: 1px solid #fff;
+                height: 76px;
+            }
+
+            .Line2 {
+                border: 2px solid #fff;
+                height: 76px;
+            }
+
+            .button_and_text {
+                display: flex;
+                flex-wrap: wrap;
+                width: 1026px;
+                height: 358px;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+
+                .text {
+                    width: 1026px;
+                    height: 230px;
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    p {
+                        font-weight: 500;
+                        font-size: 29px;
+                        line-height: 150%;
+                        width: 100%;
+                    }
+
+                    h1 {
+                        font-weight: 700;
+                        font-size: 200px;
+                        line-height: 140%;
+                        text-align: center;
+                        margin-left: auto;
+                    }
+                }
+
+                button {
+                    width: 204px;
+                    height: 77px;
+                    background: #eb4c56;
+                    font-weight: 600;
+                    font-size: 21px;
+                    line-height: 206%;
+                    color: #fff;
+                    border: 0;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 51px;
+                    animation: sign_up 7s ease infinite;
+                    transition: 0.7s;
+
+                }
+
+                button:hover {
+                    transform: scale(1.1);
+                    cursor: pointer;
+                }
+            }
+
+
+        }
+        .svg{
+            margin-left: auto;
+            margin-top: auto;
+            z-index: 1;
+        }
+    }
+
+
+
+
+}
